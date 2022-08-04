@@ -170,3 +170,4 @@ RegisterNetEvent('qb-admin:client:maxmodVehicle', function()
     local vehicle = GetVehiclePedIsIn(PlayerPedId())
     PerformanceUpgradeVehicle(vehicle)
 end)
+
